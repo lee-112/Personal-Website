@@ -1,0 +1,31 @@
+.PageStyle {
+  background-color: rgb(40 44 52);
+  color: rgb(157 165 180);
+}
+
+.Header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 24px;
+  text-align: center;
+  font-family:'Trebuchet MS';
+}
+
+h1 {
+  margin-bottom: inherit;
+  padding: inherit;
+  border: inherit;
+  margin-bottom: 1px;
+  font-family: Snell Roundhand, 'cursive';
+  color: white;
+}
+h2 {
+  color: white;
+  margin: inherit;
+  padding: inherit;
+  border: inherit;
+  font-size: 5em;
+  font-weight: .001em;
+  letter-spacing: .05em;
+}
