@@ -4,13 +4,99 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../Personal-Website/style.css">
+	<link rel="stylesheet" href="../Personal-Website/style.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
   	<title>Introduction Page</title>
 </head>
-<body class="PageStyle">
-	<section class="Header">
-		<h1>Hello, I'm</h1>
-		<h2>IAN LEE</h2>
+
+<body>
+	<header>
+		<div class="header-image">
+			<img src="../Personal-Website/Images/Iceland.png" alt="Homepage-Image: Iceland-2017" width="90%" height="40%"/>
+		</div>
+
+		<button class="navbar-btn" aria-label="Webpage navigation">
+			<span class="navbar-style"></span>
+		</button>
+
+		<nav class="nav-container" id="nav">
+			<ul class="nav-list">
+				<li class="nav-item"><a class="nav-link" href="../Personal-Website/Index.html">Homepage</a></li>
+				<li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+				<li class="nav-item"><a class="nav-link" href="#work">Work Experience</a></li>
+				<li class="nav-item"><a class="nav-link" href="#projects">Personal Projects</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- About Me -->
+	<section class="about-me" id="about">
+		<h1>Who am I?</h1>
+		<div class="row">
+			<div class="col">
+				<img class="about-image" src="../Personal-Website/Images/Lee.png" alt="About-Image: Selfie picture of me"/>
+			</div>
+			<div class="col">
+				<!--<h2 class="about-h2">Hello, my name is <strong>Ian Lee (He/Him)</strong></h2>-->
+				<h2 class="about-h2">Hello, my name is</h2>
+				<div class="row">
+					<p class="name-line">
+						<strong class="name">Ian Lee</strong> (He/Him)
+					</p>
+				</div>
+				<div class="row">
+					<p class="about-text">
+						I am a Computer Science undergraduate at Portland State University. 
+						Currently, I am a full-time student working towards finishing my 
+						bachelor's degree. I moved here to Portland about 3 years ago after 
+						serving six years in the Air force. In my spare time I do enjoy 
+						traveling, hiking, and trying different food spots around the city.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Work Experience -->
+	<section class="work-experience" id="work">
+		<h2>Education</h2>
+		<h2>Work Experience</h2>
+		<h2>Extra Curricular Activities & Awards</h2>
+	</section>
+
+	<!-- Personal Projects -->
+	<section class="personal-projects" id="projects">
+		<h1>Personal Projects</h1>
+	</section>
+
+	<!-- Contact Me -->
+	<section class="contact-me" id="contact">
+		<h1 class="form-h1">Contact Me</h1>
+		<form action="">
+			<div class="row">
+				<div class="col">
+					<label class="form-label" for="name">Name:</label>
+					<input class="form-control" id="name" type="text" placeholder="John Doe" required=""/>
+				</div>
+				<div class="col">
+					<label class="form-label" for="email">Email:</label>
+					<input class="form-control" id="email" type="text" placeholder="JohnDoe@example.com" required=""/>
+				</div>
+			</div>
+			<div class="">
+				<label class="form-label" for="message">Message:</label>
+				<textarea class="form-control" id="message" name="message" rows="5" cols="" placeholder="Type your message."></textarea>
+			</div>
+			<div class="row">
+				<div class="col">
+					<button class="btn btn-submit" type="submit" value="submit">SUBMIT</button>
+				</div>
+				<div class="col">
+					<button class="btn btn-reset" type="reset" value="reset">RESET</button>
+				</div>
+			</div>
+		</form>
 	</section>
 </body>
 </html>
