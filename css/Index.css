@@ -1,0 +1,12 @@
+body {
+    background-image: url("../Images/3D\ Elephant.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*background-position: right;
+    background-size: 50% 100%;*/
+}
+
+header {
+    background-color: black;
+}

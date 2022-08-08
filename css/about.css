@@ -1,0 +1,40 @@
+body {
+    background-image: url("../Images/paintsplash_wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10% 20%;
+    font-size: 15px;
+}
+
+main {
+    padding-bottom: 5%;
+    border-radius: 10px;
+    border-style: solid white;
+    background-color: rgb(177 40 31);
+}
+
+h1 {
+    padding: 0%;
+    margin: auto;
+    letter-spacing: 6px;
+    font-family: Arial Black;
+}
+
+h2 {
+    font-family: Marker Felt, fantasy;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.about-header {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+
+}
+
+.about-row {
+    background-color: white;
+}

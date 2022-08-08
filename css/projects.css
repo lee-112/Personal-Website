@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(87, 80, 111);
+    margin-bottom: 10%;
+    margin-top: 8%;
+    font-size: 15px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+h1 {
+    color: rgb(33 37 41);
+    font-family: Arial Black;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(33 37 41);
+}
+
+.a1 {
+    border-width: 6px;
+    border-style: outset;
+    border-color: rgb(15, 107, 107);
+    background-color: rgb(24 179 181);
+}
+
+.a2 {
+    border-width: 6px;
+    border-style: outset;
+    border-color: rgb(51, 98, 93);
+    background-color: rgb(103 193 183);
+}
+
+.row-container {
+    background-color: gray;
+    width: auto;
+    height: auto;
+}

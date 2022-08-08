@@ -1,0 +1,21 @@
+body {
+    background-image: url("../Images/Green-ABS.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 15px;
+}
+
+main {
+    padding: 0%;
+    font-size: 18px;
+    background-color: white;
+}
+
+.btn {
+    font-size: 20px;
+}
+.container {
+    max-width: 50%;
+}

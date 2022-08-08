@@ -1,0 +1,17 @@
+body {
+    background-image: url("../Images/Green-ABS.png");
+    background-repeat: repeat;
+    background-size: contain;
+    font-size: 15px;
+}
+
+main {
+    color: white;
+    padding-top: 5%;
+    font-size: 16;
+    background-color: rgb(33 37 41);
+}
+
+h2 {
+    color: rgb(0 154 104);
+}
