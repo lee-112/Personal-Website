@@ -6,7 +6,8 @@ Hello, my name is Ian Lee and this is my personal website project for my Intro t
 My website consist of five sections which includes; homepage, an about me section, work experience, personal projects, and a contact page. Each section is hosted on its own webpage which are all accessible through the use of the quick navigation bar located on each webpage. 
 
 ## **View Website**
-If you wish to view my website you can either download the repository and run the html files form your own browser, or you can follow the link listed down below. 
+If you wish to view my website you can either download the repository and run the html files form your own browser, or you can follow the link listed down below.
+
 **Website Link:** 
 
 ## **Resources Used**
