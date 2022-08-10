@@ -16,7 +16,7 @@ nav {
     background-color: rgb(33 37 41);
     color: white;
     opacity: 0.8;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -26,4 +26,9 @@ nav .navbar-nav li a {
 
 nav .navbar-nav li a:hover {
     color: orange !important;
+}
+
+.center {
+    width: 50vw;
+    margin-left: 25%;
 }
