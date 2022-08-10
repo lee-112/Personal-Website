@@ -8,7 +8,7 @@ My website consist of five sections which includes; homepage, an about me sectio
 ## **View Website**
 If you wish to view my website you can either download the repository and run the html files form your own browser, or you can follow the link listed down below.
 
-**Website Link:** 
+**Website Link: [lee-112.github.io](https://lee-112.github.io/Personal-Website/html/Index.html)** 
 
 ## **Resources Used**
 - Course slides and video lectures.
