@@ -13,12 +13,12 @@ img {
 }
 
 h1 {
-    position: static;
+    font-size: larger;
     color: rgb(33 37 41);
     font-family: Arial Black;
 }
 
-.p p {
+h2 {
     margin: 0;
     padding: 5%;
     font-size: 200%;

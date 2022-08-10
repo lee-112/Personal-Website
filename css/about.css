@@ -22,15 +22,20 @@ h1 {
 }
 
 h2 {
+    font-size: 23px;
+}
+
+h3 {
     font-family: Marker Felt, fantasy;
 }
+
+
 
 .text {
     font-size: 18px;
 }
 
 .about-header {
-    font-size: 23px;
     font-weight: 600;
     text-align: center;
     color: white;
