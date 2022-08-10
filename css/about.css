@@ -1,6 +1,7 @@
 body {
     background-image: url("../Images/paintsplash_wallpaper.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     margin: 10% 20%;
     font-size: 15px;
@@ -29,10 +30,10 @@ h2 {
 }
 
 .about-header {
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 600;
     text-align: center;
     color: white;
-
 }
 
 .about-row {

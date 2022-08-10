@@ -1,24 +1,29 @@
 body {
     background-color: rgb(87, 80, 111);
-    margin-bottom: 10%;
-    margin-top: 8%;
+    background-repeat: no-repeat;
     font-size: 15px;
+    margin-top: 5%;
+    padding-bottom: 5%;
 }
 
 img {
     max-width: 400px;
     max-height: 400px;
+    background-color: rgb(33 37 41);
 }
 
 h1 {
+    position: static;
     color: rgb(33 37 41);
     font-family: Arial Black;
 }
 
-p {
+.p p {
     margin: 0;
-    padding: 10px;
+    padding: 5%;
+    font-size: 200%;
     color: white;
+    border-style: solid rgb(33 37 41);
     background-color: rgb(33 37 41);
 }
 

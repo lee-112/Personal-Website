@@ -1,9 +1,29 @@
 body {
-    background-image: url("../Images/3D\ Elephant.png");
+    background-image: url("../Images/river.png");
+    background-color: rgb(33 37 41);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center fixed;
+    background-size: 1920px 1080px;
 }
 
-header {
-    background-color: black;
+h1 {
+    margin: 0%;
+    padding: 50px;
+    color: azure;
+}
+
+nav {
+    background-color: rgb(33 37 41);
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+nav .navbar-nav li a:hover {
+    color: orange !important;
 }
